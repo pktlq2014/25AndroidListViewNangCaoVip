@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_margin="5dp"
+        android:id="@+id/imageViewHinhAnh"
+        android:src="@mipmap/ic_launcher"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textViewTenMonAn"
+            android:textColor="#f20"
+            android:text="Tên Món Ăn"
+            android:textSize="35dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textViewGiaMonAn"
+            android:textColor="#3547c1"
+            android:text="Giá Món Ăn"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+</LinearLayout>
